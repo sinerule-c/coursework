@@ -1,11 +1,31 @@
 # coursework
-Step 1: Finding the product category that is making the most losses
-- Using SQL:
+Step 1: The product category that is making the most losses
+- Using SQL, we found that 'Tables' have the highest loss
 
 | sub_category | total_sales | total_profit | profit_margin |
 |--------------|-------------|--------------|---------------|
-| Tables | 755993.19 | -62888.15 | -0.08 |
-| Fasteners | 83061.63 | 11453.67 | 0.14 |
-| Labels | 73254.17 | 14980.01 | 0.20 |
-| Supplies | 242482.96 | 22471.02 | 0.09 |
-| Envelopes | 170793.58 | 29583.16 | 0.17 |
+| Tables | 755993.19 | -62888.15 | -8.32 |
+| Fasteners | 83061.63 | 11453.67 | 13.79 |
+| Labels | 73254.17 | 14980.01 | 20.45 |
+| Supplies | 242482.96 | 22471.02 | 9.27 |
+| Envelopes | 170793.58 | 29583.16 | 17.32 |
+
+Questions:
+Which products and markets should management prioritise?
+Which transactions are causing the losses?
+What pricing changes would be required to restore profitability?
+How much additional revenue would those changes require, and what happens if demand falls?
+Should certain products be repriced, reviewed, or discontinued?
+
+Step 2: The market where Tables are losing the most money
+- Using SQL, we found that EU has the highest profit loss, while APAC has the highest sales. These sales could potentially improve the profit margin.
+
+| market	|total_sales	|total_profit	|profit_margin|
+|-|-|-|-|
+|EU	|105381.38	|-20998.42	|-19.93|
+|APAC	|224050.08	|-18933.51	|-8.45|
+|US	206965.53	|-17725.48	|-8.56|
+|LATAM	|144880.33	|-12305.85|	-8.49|
+|Canada	|849.36	|300.18	|35.34|
+|EMEA	|39333.92	|2764.25	|7.03|
+|Africa	|34532.60|	4010.69|	11.61|
