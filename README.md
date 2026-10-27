@@ -30,8 +30,8 @@ Step 2: The market where Tables are losing the most money
 |EMEA	|39333.92	|2764.25	|7.03|
 |Africa	|34532.60|	4010.69|	11.61|
 
-# Which country in EU, Tables are losing the most money?
-# Why is Germany Tables losing so much money?
+Which country in EU, Tables are losing the most money?
+Why is Germany Tables losing so much money?
 
 | discount|	number_of_transactions	|quantity	|total_sales	|total_profit	|profit_margin	|price_per_unit|	original_price_per_unit	|cost_per_unit	|break_even_discount	|profit_per_unit|
 |-|-|-|-|-|-|-|-|-|-|-|
@@ -39,3 +39,6 @@ Step 2: The market where Tables are losing the most money
 |0.4500	|2	|11	|2546.43|	-1103.19	|-43.32	|231.49	|420.90	|331.78|	0.21|	-100.29|
 |0.8500	|2	|10	|796.84	|-3068.66	|-385.10	|79.68	|531.23	|386.55	|0.27	|-306.87|
 
+All three discount groups have actual discounts exceeding their estimated break-even discounts. For example, for 0.35 discount, every unit sold, lose $48.54. Thus, increasing sales volume would only magnify the financial losses rather than improving profitability.
+
+By how much must the company reduce discounts or unit costs to restore profitability, and how much could sales volume decline before those changes become ineffective?
